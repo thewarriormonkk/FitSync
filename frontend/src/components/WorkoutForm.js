@@ -64,7 +64,7 @@ const WorkoutForm = () => {
                 className={emptyFields.includes('reps') ? 'error' : ''}
             />
 
-            <button type='submit'>ADD</button>
+            <button className='material-symbols-outlined' type='submit'>ADD</button>
             {error && <div className='error'>{error}</div>}
         </form>
     );
